@@ -5,17 +5,17 @@ pub struct TypesenseMetrics {
     pub system_cpu1_active_percentage: String,
     #[serde(default = "system_cpu2_active_percentage_default")]
     pub system_cpu2_active_percentage: String,
-     #[serde(default = "system_cpu3_active_percentage_default")]
+    #[serde(default = "system_cpu3_active_percentage_default")]
     pub system_cpu3_active_percentage: String,
-     #[serde(default = "system_cpu4_active_percentage_default")]
+    #[serde(default = "system_cpu4_active_percentage_default")]
     pub system_cpu4_active_percentage: String,
-     #[serde(default = "system_cpu5_active_percentage_default")]
+    #[serde(default = "system_cpu5_active_percentage_default")]
     pub system_cpu5_active_percentage: String,
-     #[serde(default = "system_cpu6_active_percentage_default")]
+    #[serde(default = "system_cpu6_active_percentage_default")]
     pub system_cpu6_active_percentage: String,
-     #[serde(default = "system_cpu7_active_percentage_default")]
+    #[serde(default = "system_cpu7_active_percentage_default")]
     pub system_cpu7_active_percentage: String,
-     #[serde(default = "system_cpu8_active_percentage_default")]
+    #[serde(default = "system_cpu8_active_percentage_default")]
     pub system_cpu8_active_percentage: String,
     pub system_cpu_active_percentage: String,
     pub system_disk_total_bytes: String,
@@ -62,35 +62,30 @@ impl Default for TypesenseMetrics {
     }
 }
 
-fn system_cpu2_active_percentage_default() -> String{
-  "0".to_string()
+fn system_cpu2_active_percentage_default() -> String {
+    "0".to_string()
 }
 
-fn system_cpu3_active_percentage_default() -> String{
-  "0".to_string()
+fn system_cpu3_active_percentage_default() -> String {
+    "0".to_string()
 }
 
-fn system_cpu4_active_percentage_default() -> String{
-  "0".to_string()
+fn system_cpu4_active_percentage_default() -> String {
+    "0".to_string()
 }
 
-
-fn system_cpu5_active_percentage_default() -> String{
-  "0".to_string()
+fn system_cpu5_active_percentage_default() -> String {
+    "0".to_string()
 }
 
-
-fn system_cpu6_active_percentage_default() -> String{
-  "0".to_string()
+fn system_cpu6_active_percentage_default() -> String {
+    "0".to_string()
 }
 
-
-fn system_cpu7_active_percentage_default() -> String{
-  "0".to_string()
+fn system_cpu7_active_percentage_default() -> String {
+    "0".to_string()
 }
 
-
-fn system_cpu8_active_percentage_default() -> String{
-  "0".to_string()
+fn system_cpu8_active_percentage_default() -> String {
+    "0".to_string()
 }
-
